@@ -1,0 +1,6 @@
+extends: existence
+message: "Simple series, consider removing the last comma in '%s'."
+scope: sentence
+level: warning
+raw:
+  - (?m)((\w+,(\s)+){2}(and|or))
